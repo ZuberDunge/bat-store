@@ -2,6 +2,14 @@
     font-size: 12px;
 }
 
+.fs-14px {
+    font-size: 14px;
+}
+
+.fs-24px {
+    font-size: 24px;
+}
+
 .fs-18px {
     font-size: 18px;
 }
@@ -79,6 +87,10 @@
     color: var(--primary-color-dark);
 }
 
+.text-color-grey {
+    color: var(--grey);
+}
+
 .border-btm-grey-dotted {
     border-bottom: 1px dotted var(--grey);
     padding-bottom: 1rem;
@@ -91,4 +103,8 @@
 
 .border-btm-grey {
     border-bottom: 1px solid var(--grey);
+}
+
+button.orange-bg {
+    background-color: var(--orange);
 }
