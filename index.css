@@ -22,6 +22,7 @@
     --blue: #152336;
     --discount: #388e3c;
     --orange: #fb641b;
+    --secondary: #fb641b;
     --wishlist: #fc5656;
     --dark-grey: #858585;
 }
@@ -234,7 +235,7 @@ main,
 }
 
 .featured-date {
-    font-size: 1.rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--yellow);
     padding: 0.5rem;
