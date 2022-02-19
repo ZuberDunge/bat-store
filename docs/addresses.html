@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://batstrap-ui.netlify.app/style.css" />
+    <title>BatStore</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="category.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="login-signup.css" />
+    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="address.css" />
+    <style>
+      .slider-box {
+        width: 100%;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+        margin: 30px auto;
+      }
+
+      #slider {
+        width: 100%;
+        display: grid;
+        transition: 0.7s;
+        grid-template-columns: 100vw 100vw 100vw 100vw;
+      }
+
+      .indicators {
+        position: absolute;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+      }
+
+      .indicators span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+      }
+
+      .active {
+        background: #ffff !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="navbar">
+        <nav>
+          <div class="bat-flex media-nav bat-align-center flex-gap-1">
+            <span class="material-icons menu-icon"> menu </span>
+            <div class="bat-logo bat-flex flex-gap-1 bat-align-center bold-600">
+              <i class="fad fa-bat"></i>BatStore
+            </div>
+
+            <div class="search-bar bat-flex bat-align-center bat-br-5px">
+              <span class="material-icons"> search </span>
+              <input
+                class="search-input"
+                type="text"
+                placeholder="Search for Marvel, DC comics"
+              />
+            </div>
+          </div>
+          <div class="nav-menu bat-flex bat-align-center flex-gap-1">
+            <button
+              class="bat-flex bat-align-center flex-gap-8px bat-btn bat-br-3px bat-btn-light"
+            >
+              <span class="material-icons"> person </span>
+              <span class="hide-on-phone"> Login </span>
+            </button>
+            <div class="bat-flex bat-align-center bat-fs-1r pointer">
+              <span class="material-icons"> shopping_cart </span>
+              <span class="hide-on-phone"> Cart </span>
+            </div>
+            <span class="material-icons"> favorite </span>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero-img-cat login-section-wala">
+        <img
+          src="./images/Batman-Comics-10-Essentials-You-Need-To-Read.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="address-section">
+        <h3 class="bat-txt-center">My Addresses</h3>
+        <div class="address-grid">
+          <div class="address-grid-item add-new-address">
+            <h3>Add New</h3>
+            <span class="material-icons"> add_circle </span>
+          </div>
+          <div class="address-grid-item">
+            <p class="bold-600">Zuber Dunge</p>
+            <p>
+              Muskan Printers And Xerox Near Of Gausiya Masjid,Purpidit
+              Colony,Akot Road, Akot Fail AKOLA, MAHARASHTRA 444003 India
+            </p>
+            <div
+              class="bat-flex bat-align-center edit-delete-section flex-gap-1"
+            >
+              <span class="material-icons"> edit </span>
+
+              <span class="material-icons"> delete </span>
+            </div>
+          </div>
+
+          <div class="address-grid-item">
+            <p class="bold-600">Zuber Dunge</p>
+            <p>
+              Muskan Printers And Xerox Near Of Gausiya Masjid,Purpidit
+              Colony,Akot Road, Akot Fail AKOLA, MAHARASHTRA 444003 India
+            </p>
+            <div
+              class="bat-flex bat-align-center edit-delete-section flex-gap-1"
+            >
+              <span class="material-icons"> edit </span>
+
+              <span class="material-icons"> delete </span>
+            </div>
+          </div>
+
+          <div class="address-grid-item">
+            <p class="bold-600">Zuber Dunge</p>
+            <p>
+              Muskan Printers And Xerox Near Of Gausiya Masjid,Purpidit
+              Colony,Akot Road, Akot Fail AKOLA, MAHARASHTRA 444003 India
+            </p>
+            <div
+              class="bat-flex bat-align-center edit-delete-section flex-gap-1"
+            >
+              <span class="material-icons"> edit </span>
+
+              <span class="material-icons"> delete </span>
+            </div>
+          </div>
+
+          <div class="address-grid-item">
+            <p class="bold-600">Zuber Dunge</p>
+            <p>
+              Muskan Printers And Xerox Near Of Gausiya Masjid,Purpidit
+              Colony,Akot Road, Akot Fail AKOLA, MAHARASHTRA 444003 India
+            </p>
+            <div
+              class="bat-flex bat-align-center edit-delete-section flex-gap-1"
+            >
+              <span class="material-icons"> edit </span>
+
+              <span class="material-icons"> delete </span>
+            </div>
+          </div>
+
+          <div class="address-grid-item">
+            <p class="bold-600">Zuber Dunge</p>
+            <p>
+              Muskan Printers And Xerox Near Of Gausiya Masjid,Purpidit
+              Colony,Akot Road, Akot Fail AKOLA, MAHARASHTRA 444003 India
+            </p>
+            <div
+              class="bat-flex bat-align-center edit-delete-section flex-gap-1"
+            >
+              <span class="material-icons"> edit </span>
+
+              <span class="material-icons"> delete </span>
+            </div>
+          </div>
+
+          <div class="address-grid-item">
+            <p class="bold-600">Zuber Dunge</p>
+            <p>
+              Muskan Printers And Xerox Near Of Gausiya Masjid,Purpidit
+              Colony,Akot Road, Akot Fail AKOLA, MAHARASHTRA 444003 India
+            </p>
+            <div
+              class="bat-flex bat-align-center edit-delete-section flex-gap-1"
+            >
+              <span class="material-icons"> edit </span>
+
+              <span class="material-icons"> delete </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="bat-footer">
+        <div class="bat-footer-component">
+          <div class="bat-footer-social bat-fs-14px">
+            <ul class="bat-footer-nav">
+              <li class="bold-600 bat-fs-14px">Navigation</li>
+              <li>Home</li>
+              <li>Marvel</li>
+              <li>DC</li>
+              <li>Profile</li>
+              <li>Cart</li>
+              <li>Wishlist</li>
+            </ul>
+          </div>
+          <div class="bat-footer-social bat-fs-14px">
+            <div class="bold-600 bat-fs-14px">Open Source</div>
+            <div>
+              We're open-sourced on GitHub. <br />
+              Contributions and feedback are welcome!
+            </div>
+            <div class="bat-github-btn">
+              <a class="link" href="https://github.com/ZuberDunge">
+                Contribute on Github <i class="fab fa-github social"></i
+              ></a>
+            </div>
+            <div>© BatStore, 2022 All rights reserved.</div>
+            <div class="bold-600 bat-fs-14px">Social</div>
+            <div>
+              <ul
+                class="bat-flex flex-gap-1 bat-social-links bat-list-non-bullets"
+              >
+                <li class="bat-icon-social">
+                  <a class="link" href="https://github.com/ZuberDunge">
+                    <i class="fab fa-github social"></i
+                  ></a>
+                </li>
+                <li class="bat-icon-social">
+                  <a class="link" href="https://www.instagram.com/zuberdunge/">
+                    <i class="fab fa-instagram social"></i
+                  ></a>
+                </li>
+                <li class="bat-icon-social">
+                  <a
+                    class="link"
+                    href="https://www.linkedin.com/in/zuberdunge/"
+                  >
+                    <i class="fab fa-linkedin-in social"></i
+                  ></a>
+                </li>
+                <li class="bat-icon-social">
+                  <a class="link" href="https://www.twitter.com/zuberdunge/">
+                    <i class="fab fa-twitter social"></i
+                  ></a>
+                </li>
+                <li class="bat-icon-social">
+                  <a class="link" href="mailto:iamZuberDunge@gmail.com">
+                    <i class="fas fa-envelope social"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="https://zuberdunge.tech">
+                Designed with 💕 By
+                <span class="bat-zub-ftr-link">
+                  Zuber Dunge
+                  <i class="fas fa-external-link-alt"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="bat-footer-social bat-fs-14px">
+            <ul class="bat-footer-nav">
+              <li class="bold-600 bat-fs-14px">Help</li>
+              <li>Return</li>
+              <li>Payment</li>
+              <li>Term of use</li>
+              <li>Privacy</li>
+              <li>Payment options Available</li>
+            </ul>
+
+            <!-- <div>
+              <img
+                src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_69e7ec.svg"
+                alt=""
+              />
+            </div> -->
+          </div>
+          <div class="bat-footer-social bat-fs-14px">
+            <ul class="bat-footer-nav">
+              <li class="bold-600 bat-fs-14px">© Credits</li>
+              <li>Marvel Comics</li>
+              <li>DC Comics</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
