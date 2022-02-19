@@ -33,19 +33,13 @@ footer .bat-footer-component {
 }
 
 @media screen and (max-width: 1000px) {
-
     footer .bat-footer-component {
-
         grid-template-columns: 1fr 1fr;
-
     }
 }
 
 @media screen and (max-width: 600px) {
-
     footer .bat-footer-component {
-
         grid-template-columns: 1fr;
-
     }
 }
