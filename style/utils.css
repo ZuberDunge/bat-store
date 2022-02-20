@@ -10,6 +10,10 @@
     font-size: 24px;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 .fs-18px {
     font-size: 18px;
 }
@@ -107,4 +111,8 @@
 
 button.orange-bg {
     background-color: var(--orange);
+}
+
+.bat-justify-end {
+    justify-content: end;
 }
