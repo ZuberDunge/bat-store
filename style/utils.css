@@ -95,6 +95,10 @@
     color: var(--grey);
 }
 
+.text-color-dark-grey {
+    color: var(--dark-grey);
+}
+
 .border-btm-grey-dotted {
     border-bottom: 1px dotted var(--grey);
     padding-bottom: 1rem;
