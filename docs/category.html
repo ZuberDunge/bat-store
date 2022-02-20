@@ -51,6 +51,7 @@
       <div class="cat-grid">
         <div id="filters">
           <div
+            id="filters-btn"
             class="filter-heading bat-fw-600 bat-flex bat-justify-between bat-align-center"
           >
             Filters
@@ -58,12 +59,31 @@
               keyboard_double_arrow_down
             </span>
           </div>
+
           <div class="filters">
+            <div
+              class="filter-heading bat-fw-400 bat-flex bat-justify-end bat-align-center"
+            >
+              Clear
+            </div>
             <div class="sorting bat-mar-tb-1 bat-flex bat-flx-dir-col">
               <span class="filter-type">PRICE</span>
 
               <label class="bat-flex bat-gap-8px bat-align-center" for="sort">
-                <input type="range" name="high-to-low" id="" />
+                <input type="range" class="width-100" list="tickmarks" />
+                <datalist id="tickmarks">
+                  <option value="0"></option>
+                  <option value="10"></option>
+                  <option value="20"></option>
+                  <option value="30"></option>
+                  <option value="40"></option>
+                  <option value="50"></option>
+                  <option value="60"></option>
+                  <option value="70"></option>
+                  <option value="80"></option>
+                  <option value="90"></option>
+                  <option value="100"></option>
+                </datalist>
               </label>
             </div>
             <div class="sorting bat-mar-tb-1 bat-flex bat-flx-dir-col">
@@ -1170,7 +1190,7 @@
     </div>
     <script>
       let clickedCat = true;
-      document.querySelector("#filters").addEventListener("click", () => {
+      document.querySelector("#filters-btn").addEventListener("click", () => {
         document.querySelector(".filters").classList.toggle("filters-show");
         if (clickedCat) {
           document.querySelector("#cat-icon").innerHTML =

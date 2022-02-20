@@ -1,3 +1,8 @@
+#filters {
+    padding-right: 1rem;
+    overflow-y: scroll;
+}
+
 .cat-grid-cards .bat-card img {
     height: 250px;
     width: 170px;
