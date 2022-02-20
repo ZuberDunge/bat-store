@@ -1,0 +1,45 @@
+footer.bat-footer {
+    background-color: var(--blue);
+    color: var(--grey);
+}
+
+footer.bat-footer .bat-fs-14px {
+    font-size: 14px;
+}
+
+footer.bat-footer .bat-github-btn {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+}
+
+footer.bat-footer .bat-github-btn:hover {
+    background-color: var(--primary-color-dark);
+}
+
+footer .bat-footer-social div {
+    padding: 0.25rem;
+}
+
+footer .bat-footer-nav li {
+    padding: 0.25rem;
+}
+
+footer .bat-footer-component {
+    max-width: 1600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .75fr 1fr .75fr .5fr;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    footer .bat-footer-component {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer .bat-footer-component {
+        grid-template-columns: 1fr;
+    }
+}
