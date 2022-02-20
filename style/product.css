@@ -33,7 +33,7 @@
     object-fit: cover;
     object-position: top;
     margin-bottom: 1rem;
-    transition: .3s all;
+    transition: 0.3s all;
 }
 
 .product-item-one-img img:hover {

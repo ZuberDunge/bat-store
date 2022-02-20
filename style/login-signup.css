@@ -32,7 +32,7 @@
     border-bottom: 1px solid var(--grey);
     width: 100%;
     font-size: 1rem;
-    margin: .75rem 0;
+    margin: 0.75rem 0;
 }
 
 .login-form form input:focus {

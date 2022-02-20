@@ -21,7 +21,7 @@
     flex-direction: row;
     max-width: 100%;
     overflow: unset;
-    gap: .5rem;
+    gap: 0.5rem;
 }
 
 .cart-add-qnt {
