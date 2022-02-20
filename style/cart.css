@@ -80,6 +80,24 @@
     background-color: var(--orange);
 }
 
+.apply-coupon input {
+    padding: .5rem 1rem;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid var(--grey);
+    transition: .3s all;
+}
+
+.apply-coupon input:focus {
+    border: 2px solid var(--primary-color);
+}
+
+.apply-coupon button {
+    padding: .5rem;
+    width: 40%;
+}
+
 @media screen and (max-width: 700px) {
     .cart {
         margin: auto;
