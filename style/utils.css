@@ -1,0 +1,122 @@
+.small-text {
+    font-size: 12px;
+}
+
+.fs-14px {
+    font-size: 14px;
+}
+
+.fs-24px {
+    font-size: 24px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.fs-18px {
+    font-size: 18px;
+}
+
+.bat-fw-700 {
+    font-weight: 700;
+}
+
+.bat-fw-300 {
+    font-weight: 300;
+}
+
+.bat-fw-400 {
+    font-weight: 400;
+}
+
+.bat-fw-900 {
+    font-weight: 900;
+}
+
+.bat-fw-500 {
+    font-weight: 500;
+}
+
+.bat-fw-600 {
+    font-weight: 600;
+}
+
+.bat-mar-tb-1 {
+    margin: 1rem 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.margin-tb-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mar-b-2 {
+    margin-bottom: 2rem;
+}
+
+.bat-gap-8px {
+    gap: 8px;
+}
+
+.bat-mar-tb-1 {
+    margin: 1rem 0;
+}
+
+.m-tb-8 {
+    margin: 8px 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.margin-t-1 {
+    margin-top: 1rem;
+}
+
+.bat-m-l-8px {
+    margin-left: 8px;
+}
+
+.text-color-primary {
+    color: var(--primary-color);
+}
+
+.text-color-primary-dark {
+    color: var(--primary-color-dark);
+}
+
+.text-color-grey {
+    color: var(--grey);
+}
+
+.text-color-dark-grey {
+    color: var(--dark-grey);
+}
+
+.border-btm-grey-dotted {
+    border-bottom: 1px dotted var(--grey);
+    padding-bottom: 1rem;
+}
+
+.border-btm-grey-solid {
+    border-bottom: 1px solid var(--grey);
+    padding-bottom: 1rem;
+}
+
+.border-btm-grey {
+    border-bottom: 1px solid var(--grey);
+}
+
+button.orange-bg {
+    background-color: var(--orange);
+}
+
+.bat-justify-end {
+    justify-content: end;
+}

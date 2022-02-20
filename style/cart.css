@@ -1,0 +1,150 @@
+.cart {
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.cart-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.horizointal-card.bat-card img {
+    width: 120px;
+    height: 130px;
+    object-position: top;
+    object-fit: cover;
+}
+
+.horizointal-card.bat-card {
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    flex-direction: row;
+    max-width: 100%;
+    overflow: unset;
+    gap: .5rem;
+}
+
+.cart-add-qnt {
+    display: flex;
+    gap: .35rem;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.cart-add-qnt span:nth-child(2) {
+    border: 1px solid var(--grey);
+    height: 1.5rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-save-later {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.total-bill-section {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1rem;
+    gap: 20px;
+    top: 0;
+    position: sticky;
+    height: 90vh;
+}
+
+.grey-color {
+    color: #878787;
+}
+
+.discount-color {
+    color: var(--discount);
+}
+
+
+
+.plcae-order-btn {
+    background-color: var(--orange);
+    font-size: 1.2rem;
+}
+
+.plcae-order-btn:hover {
+    filter: brightness(.9);
+    background-color: var(--orange);
+}
+
+.apply-coupon input {
+    padding: .5rem 1rem;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid var(--grey);
+    transition: .3s all;
+}
+
+.apply-coupon input:focus {
+    border: 2px solid var(--primary-color);
+}
+
+.apply-coupon button {
+    padding: .5rem;
+    width: 40%;
+}
+
+@media screen and (max-width: 700px) {
+    .cart {
+        margin: auto;
+    }
+
+    .cart-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .total-bill-section {
+        position: static;
+        height: 100%;
+    }
+
+    .cart-save-later {
+        gap: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .horizointal-card.bat-card img {
+        width: 90px;
+    }
+
+    .horizointal-card.bat-card {
+        align-items: flex-start;
+    }
+
+    .cart-add-qnt {
+        flex-direction: column;
+    }
+
+    .cart-save-later {
+        gap: .75rem;
+    }
+
+    .wrap-on-500 {
+        flex-wrap: wrap;
+    }
+}
+
+.address-bar-cart {
+    border: 1px solid var(--grey);
+    border-radius: 2px;
+    font-weight: 500;
+    padding: .75rem;
+    font-size: 14px;
+}
