@@ -1,0 +1,114 @@
+.login-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: 1rem auto 2rem;
+    gap: 1rem;
+}
+
+.login-img img {
+    height: 100%;
+    max-width: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.login-form {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form form label {
+    font-size: 1rem;
+}
+
+.login-form form .input-parent input {
+    border: none;
+    border-bottom: 1px solid var(--grey);
+    width: 100%;
+    font-size: 1rem;
+    margin: 0.75rem 0;
+}
+
+.login-form form input:focus {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.login-form form button {
+    width: 100%;
+}
+
+.login-with-google-btn {
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.login-section-wala.hero-img-cat img {
+    height: 70px;
+}
+
+.login-section-wala .absolute-head {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.input-parent {
+    position: relative;
+    padding: 10px 0;
+}
+
+.input-parent label {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: all 0.2s ease-in-out;
+}
+
+.input-parent input:valid+label,
+.input-parent input:focus+label {
+    font-size: 14px;
+    transform: translateY(0);
+}
+
+.hide-pass-icon {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
+@media screen and (max-width: 750px) {
+    .login-section {
+        display: flex;
+        max-width: 800px;
+        margin: 0rem auto 2rem;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .login-form {
+        padding: 0 1rem;
+    }
+
+    .login-section-wala.hero-img-cat img {
+        height: 50px;
+    }
+
+    .login-section-wala .absolute-head {
+        font-size: 1.5rem;
+    }
+}
