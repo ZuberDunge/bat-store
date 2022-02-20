@@ -175,6 +175,7 @@ main,
 .bat-card.card-with-badge .bat-badge {
     background-color: var(--yellow);
     color: var(--blue);
+    left: 0%;
 }
 
 .line {

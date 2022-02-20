@@ -99,6 +99,15 @@
 }
 
 @media screen and (max-width: 700px) {
+    .delivery-icon {
+        display: none;
+    }
+
+    .delivery-flex {
+        width: 100%;
+        justify-content: space-between;
+    }
+
     .cart {
         margin: auto;
     }
