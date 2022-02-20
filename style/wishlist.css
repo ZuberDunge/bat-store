@@ -75,7 +75,6 @@
 }
 
 
-
 @media screen and (max-width: 600px) {
     .wish-list-container {
         grid-template-columns: 1fr;
