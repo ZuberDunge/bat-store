@@ -1,0 +1,50 @@
+.address-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.address-grid-item {
+    font-size: 14px;
+    padding: 1rem;
+    border: 2px solid var(--grey);
+    border-radius: 5px;
+}
+
+.edit-delete-section {
+    justify-content: flex-end;
+}
+
+.edit-delete-section span {
+    border: 1px solid var(--grey);
+    padding: .5rem;
+    color: var(--dark-grey);
+}
+
+.add-new-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.add-new-address span {
+    color: var(--dark-grey);
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width:700px) {
+    .address-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .address-grid {
+        grid-template-columns: 1fr;
+    }
+}
