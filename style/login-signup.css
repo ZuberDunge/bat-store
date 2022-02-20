@@ -84,6 +84,12 @@
     transform: translateY(0);
 }
 
+.hide-pass-icon {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
 @media screen and (max-width: 750px) {
     .login-section {
         display: flex;
