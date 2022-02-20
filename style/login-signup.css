@@ -36,9 +36,7 @@
 }
 
 .login-form form input:focus {
-
     border-bottom: 1px solid var(--primary-color);
-
 }
 
 .login-form form button {
