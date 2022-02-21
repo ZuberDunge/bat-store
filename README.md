@@ -4,6 +4,20 @@
 
 ![MIT License](https://img.shields.io/static/v1?label=netlify&message=success&color=<COLOR>)
 
+### Page Links
+### <a href="https://batstore.netlify.app">Landing Page for Batstore</a> 
+### <a href="https://batstore.netlify.app/docs/category.html">Products Listing Page with Filters</a>
+### <a href="https://batstore.netlify.app/docs/product.html">Single Product Page</a>
+### <a href="https://batstore.netlify.app/docs/cart.html">Cart Page</a>
+### <a href="https://batstore.netlify.app/docs/wishlist.html">Wishlist Page</a>
+### <a href="https://batstore.netlify.app/docs/login.html">Login Page</a>
+### <a href="https://batstore.netlify.app/docs/signup.html">Sign Up Page</a>
+### <a href="https://batstore.netlify.app/docs/orders.html">My Orders Page </a>
+### <a href="https://batstore.netlify.app/docs/profile.html">User Profile Page  </a>
+### <a href="https://batstore.netlify.app/docs/addresses.html">Address Management Page  </a>
+### <a href="https://batstore.netlify.app/docs/password.html">Forgot Password Page </a>
+
+
 ## Demo
 ### Landing Page for Batstore
 ![Portfolio](https://user-images.githubusercontent.com/84624397/154943270-1305e215-e406-41f1-b7a7-8b1f8e1dd140.jpg)
