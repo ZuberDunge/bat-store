@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://batstrap-ui.netlify.app/style.css" />
     <title>BatStore</title>
+    <link rel="shortcut icon" href="/images/bat-icon.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -36,13 +37,13 @@
             </div>
           </div>
           <div class="nav-menu bat-flex bat-align-center flex-gap-1">
-            <a href="/docs/login.html"
+            <a href="/"
               ><button
                 class="bat-flex bat-align-center flex-gap-8px bat-btn bat-br-3px bat-btn-light"
               >
                 <span class="material-icons"> person </span>
 
-                <span class="hide-on-phone"> Login </span>
+                <span class="hide-on-phone"> Profile </span>
               </button></a
             >
 
@@ -58,9 +59,66 @@
           </div>
         </nav>
       </div>
+      <header class="landing-header show-on-phone-only bat-pad-t-8px">
+        <div class="category-list bat-flex bat-align-center flex-gap-1">
+          <div>
+            <img
+              src="/images/Batman-Comics-10-Essentials-You-Need-To-Read.jpg"
+              alt=""
+            />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Batman</div>
+              </div>
+            </a>
+          </div>
+
+          <div>
+            <img
+              src="/images/jbareham_201217_0988_2020_wwoman_comics.jpg"
+              alt=""
+            />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Wonder Woman</div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <img
+              src="https://www.denofgeek.com/wp-content/uploads/2017/11/thor-comics-reading-guide-ragnarok.jpg?fit=1024%2C544"
+              alt=""
+            />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Thor</div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <img
+              src="/images/jbareham_201027_0988_grids_superman_vrs02.jpg"
+              alt=""
+            />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Superman</div>
+              </div></a
+            >
+          </div>
+          <div>
+            <img src="/images/jbareham_191003_0958_joker_comics.jpg" alt="" />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Joker</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </header>
       <div class="hero-img-cat login-section-wala">
         <img
-          src="./images/Batman-Comics-10-Essentials-You-Need-To-Read.jpg"
+          src="/images/Batman-Comics-10-Essentials-You-Need-To-Read.jpg"
           alt=""
         />
       </div>
@@ -81,18 +139,26 @@
         </div>
       </div>
       <div class="profile-section-grid">
-        <div class="profile-section-grid-item">
-          <span class="material-icons"> local_shipping </span> Manage Orders
-        </div>
-        <div class="profile-section-grid-item">
-          <span class="material-icons"> favorite </span> Manage Wishlist
-        </div>
-        <div class="profile-section-grid-item">
-          <span class="material-icons"> shopping_cart </span> Manage Cart
-        </div>
-        <div class="profile-section-grid-item">
-          <span class="material-icons"> home </span> Manage Addresses
-        </div>
+        <a href="/docs/orders.html">
+          <div class="profile-section-grid-item">
+            <span class="material-icons"> local_shipping </span> Manage Orders
+          </div></a
+        >
+        <a href="/docs/wishlist.html">
+          <div class="profile-section-grid-item">
+            <span class="material-icons"> favorite </span> Manage Wishlist
+          </div></a
+        >
+        <a href="/docs/cart.html">
+          <div class="profile-section-grid-item">
+            <span class="material-icons"> shopping_cart </span> Manage Cart
+          </div></a
+        >
+        <a href="/docs/addresses.html">
+          <div class="profile-section-grid-item">
+            <span class="material-icons"> home </span> Manage Addresses
+          </div></a
+        >
       </div>
 
       <footer class="bat-footer">
@@ -100,12 +166,12 @@
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">Navigation</li>
-              <li>Home</li>
-              <li>Marvel</li>
-              <li>DC</li>
-              <li>Profile</li>
-              <li>Cart</li>
-              <li>Wishlist</li>
+              <li><a href="/index.html"> Home</a></li>
+              <li><a href="/docs/category.html"> Marvel</a></li>
+              <li><a href="/docs/category.html"> DC</a></li>
+              <li><a href="/docs/profile.html">Profile</a></li>
+              <li><a href="/docs/cart.html">Cart</a></li>
+              <li><a href="/docs/wishlist.html">Wishlist</a></li>
             </ul>
           </div>
           <div class="bat-footer-social bat-fs-14px">
@@ -168,7 +234,6 @@
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">Help</li>
-              <li>Return</li>
               <li>Payment</li>
               <li>Term of use</li>
               <li>Privacy</li>
@@ -184,6 +249,13 @@
           </div>
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
+              <li class="bold-600 bat-fs-14px">Orders</li>
+              <li><a href="/docs/orders.html"> My Orders</a></li>
+              <li>Track Order</li>
+              <li>Return</li>
+              <li>Cancellation</li>
+            </ul>
+            <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">© Credits</li>
               <li>Marvel Comics</li>
               <li>DC Comics</li>
@@ -192,6 +264,6 @@
         </div>
       </footer>
     </div>
-    <script src="./index.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>

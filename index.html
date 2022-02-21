@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="/images/bat-icon.png" type="image/x-icon" />
   </head>
 
   <body>
@@ -19,9 +20,12 @@
         <nav class="bat-navbar">
           <div class="bat-flex media-nav bat-align-center flex-gap-1">
             <span class="material-icons menu-icon"> menu </span>
-            <div class="bat-logo bat-flex flex-gap-1 bat-align-center bold-600">
+            <a
+              href="/index.html"
+              class="bat-logo bat-flex flex-gap-1 bat-align-center bold-600"
+            >
               <i class="fad fa-bat"></i>BatStore
-            </div>
+            </a>
 
             <div class="search-bar bat-flex bat-align-center bat-br-5px">
               <span class="material-icons"> search </span>
@@ -42,15 +46,20 @@
                 <span class="hide-on-phone"> Login </span>
               </button></a
             >
-            <div class="bat-flex bat-align-center bat-fs-1r pointer">
+
+            <a
+              href="/docs/cart.html"
+              class="bat-flex bat-align-center bat-fs-1r pointer"
+            >
               <span class="material-icons"> shopping_cart </span>
-              <span class="hide-on-phone"> Cart </span>
-            </div>
-            <span class="material-icons"> favorite </span>
+              <span class="hide-on-phone"> Cart </span></a
+            >
+
+            <a href="/docs/wishlist.html" class="material-icons"> favorite </a>
           </div>
         </nav>
       </div>
-      <header class="landing-header">
+      <header class="landing-header bat-pad-t-8px">
         <div class="category-list bat-flex bat-align-center flex-gap-1">
           <div>
             <img
@@ -598,14 +607,13 @@
         <div class="bat-footer-component">
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
-              <li class="bold-600 bat-fs-14px">Quick Links</li>
-              <li>Home</li>
-              <li>Marvel</li>
-              <li>DC</li>
-              <li>My Profile</li>
-              <li>My Orders</li>
-              <li>My Cart</li>
-              <li>My Wishlist</li>
+              <li class="bold-600 bat-fs-14px">Navigation</li>
+              <li><a href="/index.html"> Home</a></li>
+              <li><a href="/docs/category.html"> Marvel</a></li>
+              <li><a href="/docs/category.html"> DC</a></li>
+              <li><a href="/docs/profile.html">Profile</a></li>
+              <li><a href="/docs/cart.html">Cart</a></li>
+              <li><a href="/docs/wishlist.html">Wishlist</a></li>
             </ul>
           </div>
           <div class="bat-footer-social bat-fs-14px">
@@ -668,22 +676,20 @@
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">Help</li>
-              <li>Track Order</li>
-              <li>Return</li>
               <li>Payment</li>
               <li>Term of use</li>
-              <li>Privacy Policy</li>
-              <!-- <li>Payment options Available</li> -->
+              <li>Privacy</li>
+              <li>Payment options Available</li>
             </ul>
-
-            <!-- <div>
-              <img
-                src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_69e7ec.svg"
-                alt=""
-              />
-            </div> -->
           </div>
           <div class="bat-footer-social bat-fs-14px">
+            <ul class="bat-footer-nav">
+              <li class="bold-600 bat-fs-14px">Orders</li>
+              <li><a href="/docs/orders.html"> My Orders</a></li>
+              <li>Track Order</li>
+              <li>Return</li>
+              <li>Cancellation</li>
+            </ul>
             <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">© Credits</li>
               <li>Marvel Comics</li>
@@ -693,6 +699,6 @@
         </div>
       </footer>
     </div>
-    <script src="./index.js"></script>
+    <script src="/carousel.js"></script>
   </body>
 </html>

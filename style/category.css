@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
     .cat-grid-cards {
         grid-template-columns: repeat(3, 1fr);
     }

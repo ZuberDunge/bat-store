@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://batstrap-ui.netlify.app/style.css" />
     <title>BatStore</title>
+    <link rel="shortcut icon" href="/images/bat-icon.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -57,7 +58,63 @@
           </div>
         </nav>
       </div>
+      <header class="landing-header show-on-phone-only bat-pad-t-8px">
+        <div class="category-list bat-flex bat-align-center flex-gap-1">
+          <div>
+            <img
+              src="/images/Batman-Comics-10-Essentials-You-Need-To-Read.jpg"
+              alt=""
+            />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Batman</div>
+              </div>
+            </a>
+          </div>
 
+          <div>
+            <img
+              src="/images/jbareham_201217_0988_2020_wwoman_comics.jpg"
+              alt=""
+            />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Wonder Woman</div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <img
+              src="https://www.denofgeek.com/wp-content/uploads/2017/11/thor-comics-reading-guide-ragnarok.jpg?fit=1024%2C544"
+              alt=""
+            />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Thor</div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <img
+              src="/images/jbareham_201027_0988_grids_superman_vrs02.jpg"
+              alt=""
+            />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Superman</div>
+              </div></a
+            >
+          </div>
+          <div>
+            <img src="/images/jbareham_191003_0958_joker_comics.jpg" alt="" />
+            <a href="/docs/category.html">
+              <div class="bat-overlay-bg">
+                <div class="bat-overlay-text pointer">Joker</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </header>
       <div class="cat-grid">
         <div id="filters">
           <div
@@ -177,12 +234,19 @@
                 ><input type="checkbox" name="high-to-low" id="" />Marvel</label
               >
             </div>
+            <div class="sorting bat-mar-tb-1 bat-flex bat-flx-dir-col">
+              <span class="filter-type">AVAILABILITY</span>
+              <label class="bat-flex bat-gap-8px bat-align-center" for="sort"
+                ><input type="checkbox" name="high-to-low" id="" />Include Out
+                Of Stock</label
+              >
+            </div>
           </div>
         </div>
 
         <div class="cat-content">
           <div class="cat-grid-cards">
-            <div class="bat-card card-with-badge">
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2018/06/gthmunderground_4_5b293d36d89208.55550662.jpg?itok=mXgFiewA"
                 alt="batman"
@@ -219,8 +283,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2021/11/BM-ODK_Cvr_Cropped_618cac794297a1.02220846.png?itok=tlqbEORK"
                 alt="batman"
@@ -257,8 +321,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2018/06/batwoman_v2_9_5b1729746f9e95.67583624.jpg?itok=c7TsMNRM"
                 alt="batman"
@@ -295,8 +359,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2022/01/JL_INC_Cv4_00411_DIGITAL_61eb15baab4225.28261645.jpg?itok=gexq8bZR"
                 alt="batman"
@@ -333,9 +397,9 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
+            </a>
 
-            <div class="bat-card card-with-badge">
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/9/d0/61fd98cd3c742/portrait_uncanny.jpg"
                 alt="batman"
@@ -372,8 +436,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/9/f0/61fd98c7b5d43/portrait_uncanny.jpg"
                 alt="batman"
@@ -410,8 +474,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/3/40/5f282a661283a/portrait_uncanny.jpg"
                 alt="batman"
@@ -448,8 +512,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/7/20/5bbe6795328d7/portrait_uncanny.jpg"
                 alt="batman"
@@ -486,8 +550,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2018/06/gthmunderground_4_5b293d36d89208.55550662.jpg?itok=mXgFiewA"
                 alt="batman"
@@ -524,8 +588,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2021/11/BM-ODK_Cvr_Cropped_618cac794297a1.02220846.png?itok=tlqbEORK"
                 alt="batman"
@@ -562,8 +626,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2018/06/batwoman_v2_9_5b1729746f9e95.67583624.jpg?itok=c7TsMNRM"
                 alt="batman"
@@ -600,8 +664,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2022/01/JL_INC_Cv4_00411_DIGITAL_61eb15baab4225.28261645.jpg?itok=gexq8bZR"
                 alt="batman"
@@ -638,9 +702,9 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
+            </a>
 
-            <div class="bat-card card-with-badge">
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/9/d0/61fd98cd3c742/portrait_uncanny.jpg"
                 alt="batman"
@@ -677,8 +741,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/9/f0/61fd98c7b5d43/portrait_uncanny.jpg"
                 alt="batman"
@@ -715,8 +779,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/3/40/5f282a661283a/portrait_uncanny.jpg"
                 alt="batman"
@@ -753,8 +817,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/7/20/5bbe6795328d7/portrait_uncanny.jpg"
                 alt="batman"
@@ -791,8 +855,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2018/06/gthmunderground_4_5b293d36d89208.55550662.jpg?itok=mXgFiewA"
                 alt="batman"
@@ -829,8 +893,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2021/11/BM-ODK_Cvr_Cropped_618cac794297a1.02220846.png?itok=tlqbEORK"
                 alt="batman"
@@ -867,9 +931,9 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
+            </a>
 
-            <div class="bat-card card-with-badge">
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2018/06/batwoman_v2_9_5b1729746f9e95.67583624.jpg?itok=c7TsMNRM"
                 alt="batman"
@@ -906,8 +970,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2022/01/JL_INC_Cv4_00411_DIGITAL_61eb15baab4225.28261645.jpg?itok=gexq8bZR"
                 alt="batman"
@@ -944,9 +1008,9 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
+            </a>
 
-            <div class="bat-card card-with-badge">
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/9/d0/61fd98cd3c742/portrait_uncanny.jpg"
                 alt="batman"
@@ -983,8 +1047,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/9/f0/61fd98c7b5d43/portrait_uncanny.jpg"
                 alt="batman"
@@ -1021,8 +1085,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/3/40/5f282a661283a/portrait_uncanny.jpg"
                 alt="batman"
@@ -1059,8 +1123,8 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
-            <div class="bat-card card-with-badge">
+            </a>
+            <a href="/docs/product.html" class="bat-card card-with-badge">
               <img
                 src="https://i.annihil.us/u/prod/marvel/i/mg/7/20/5bbe6795328d7/portrait_uncanny.jpg"
                 alt="batman"
@@ -1097,7 +1161,7 @@
                   <div class="bat-fs-12px">Free Delivery</div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -1106,12 +1170,12 @@
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">Navigation</li>
-              <li>Home</li>
-              <li>Marvel</li>
-              <li>DC</li>
-              <li>Profile</li>
-              <li>Cart</li>
-              <li>Wishlist</li>
+              <li><a href="/index.html"> Home</a></li>
+              <li><a href="/docs/category.html"> Marvel</a></li>
+              <li><a href="/docs/category.html"> DC</a></li>
+              <li><a href="/docs/profile.html">Profile</a></li>
+              <li><a href="/docs/cart.html">Cart</a></li>
+              <li><a href="/docs/wishlist.html">Wishlist</a></li>
             </ul>
           </div>
           <div class="bat-footer-social bat-fs-14px">
@@ -1174,7 +1238,6 @@
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">Help</li>
-              <li>Return</li>
               <li>Payment</li>
               <li>Term of use</li>
               <li>Privacy</li>
@@ -1189,6 +1252,13 @@
             </div> -->
           </div>
           <div class="bat-footer-social bat-fs-14px">
+            <ul class="bat-footer-nav">
+              <li class="bold-600 bat-fs-14px">Orders</li>
+              <li><a href="/docs/orders.html"> My Orders</a></li>
+              <li>Track Order</li>
+              <li>Return</li>
+              <li>Cancellation</li>
+            </ul>
             <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">© Credits</li>
               <li>Marvel Comics</li>
@@ -1212,6 +1282,6 @@
         clickedCat = !clickedCat;
       });
     </script>
-    <script src="./index.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>

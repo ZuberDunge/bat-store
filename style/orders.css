@@ -1,0 +1,39 @@
+.cart.my-orders {
+    margin: 0 auto;
+}
+
+.cart.my-orders .bat-card:hover {
+    box-shadow: 0 1px 12px 2px #dbdbdb;
+
+}
+
+.cart.my-orders .cart-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.profile-section-grid.grid-col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0;
+    font-size: 1.25rem;
+
+}
+
+.profile-section-grid.grid-col-1 .material-icons {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .cart.my-orders .cart-grid {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cart.my-orders .cart-grid {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

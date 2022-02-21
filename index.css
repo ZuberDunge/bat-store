@@ -7,8 +7,11 @@
 @import url('/style/footer.css');
 @import url('/style/slider.css');
 @import url('/style/wishlist.css');
+@import url('/style/product.css');
 @import url('/style/profile.css');
 @import url('/style/login-signup.css');
+@import url('/style/orders.css');
+@import url('/style/password.css');
 
 :root {
     --primary-color: #0C73EB;
@@ -36,6 +39,18 @@ body {
     margin: auto;
 }
 
+.bat-card {
+    transition: .3s all;
+}
+
+.cart .bat-card:hover {
+    box-shadow: none;
+}
+
+.bat-card:hover {
+    box-shadow: 0 1px 12px 2px #dbdbdb;
+}
+
 .show-more-text {
     background-color: var(--primary-color);
     font-size: 1.25rem;
@@ -54,6 +69,9 @@ main,
     margin: auto;
 }
 
+.show-on-phone-only {
+    display: none;
+}
 
 .material-icons {
     cursor: pointer;
@@ -268,15 +286,19 @@ main,
 }
 
 @media screen and (max-width: 700px) {
+    .show-on-phone-only {
+        display: block;
+    }
+
     div.category-list {
         position: absolute;
         flex-direction: column;
         z-index: 2;
         left: -100%;
+        transition: .3s all;
         top: 60px;
         background: white;
         right: 0;
-        overflow: scroll;
         height: 100vh;
     }
 
