@@ -9,6 +9,8 @@
 @import url('/style/wishlist.css');
 @import url('/style/profile.css');
 @import url('/style/login-signup.css');
+@import url('/style/orders.css');
+@import url('/style/password.css');
 
 :root {
     --primary-color: #0C73EB;
@@ -34,6 +36,18 @@ body {
     font-family: 'Poppins';
     max-width: 1600px;
     margin: auto;
+}
+
+.bat-card {
+    transition: .3s all;
+}
+
+.cart .bat-card:hover {
+    box-shadow: none;
+}
+
+.bat-card:hover {
+    box-shadow: 0 1px 12px 2px #dbdbdb;
 }
 
 .show-more-text {

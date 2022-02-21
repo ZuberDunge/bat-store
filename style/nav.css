@@ -13,8 +13,8 @@
 }
 
 .nav-menu .material-icons:hover {
-    background-color: var(--grey);
-    color: var(--primary-color);
+    background-color: transparent;
+    color: var(--grey);
 }
 
 .search-bar input {

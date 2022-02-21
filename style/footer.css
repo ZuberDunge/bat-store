@@ -24,6 +24,10 @@ footer .bat-footer-nav li {
     padding: 0.25rem;
 }
 
+footer.bat-footer .bold-600 {
+    font-size: 1rem
+}
+
 footer .bat-footer-component {
     max-width: 1600px;
     margin: auto;
