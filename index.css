@@ -68,6 +68,9 @@ main,
     margin: auto;
 }
 
+.show-on-phone-only {
+    display: none;
+}
 
 .material-icons {
     cursor: pointer;
@@ -282,15 +285,19 @@ main,
 }
 
 @media screen and (max-width: 700px) {
+    .show-on-phone-only {
+        display: block;
+    }
+
     div.category-list {
         position: absolute;
         flex-direction: column;
         z-index: 2;
         left: -100%;
+        transition: .3s all;
         top: 60px;
         background: white;
         right: 0;
-        overflow: scroll;
         height: 100vh;
     }
 
