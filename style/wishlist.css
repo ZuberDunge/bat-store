@@ -1,0 +1,95 @@
+.wish-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.wishlist-gif img {
+    max-width: 300px;
+}
+
+.hero-img-cat {
+    position: relative;
+}
+
+.hero-img-cat img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    filter: brightness(.3);
+}
+
+.absolute-head {
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    bottom: 0;
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.card-with-dis .bat-badge-close {
+    font-size: 1.5rem;
+    top: 3%;
+    border-radius: 50%;
+    height: 2rem;
+    background-color: var(--primary-color-dark);
+    color: var(--white);
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wish-list-container .bat-card img {
+    width: 120px;
+    object-position: top;
+    object-fit: cover;
+}
+
+.wish-list-container .bat-card {
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    flex-direction: row;
+    max-width: 100%;
+    overflow: unset;
+    gap: .5rem;
+}
+
+.wish-list-container .wishlist-btn {
+    color: var(--wishlist);
+}
+
+.bat-card.card-with-badge .bat-badge {
+    left: 1%;
+}
+
+@media screen and (max-width: 900px) {
+    .wish-list-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .wish-list-container {
+        grid-template-columns: 1fr;
+    }
+
+    .absolute-head {
+        display: flex;
+        font-size: 2.35rem;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .absolute-head {
+        font-size: 2rem;
+    }
+}

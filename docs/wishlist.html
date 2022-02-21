@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/index.css" />
   </head>
 
   <body>
@@ -19,9 +19,12 @@
         <nav class="bat-navbar">
           <div class="bat-flex media-nav bat-align-center flex-gap-1">
             <span class="material-icons menu-icon"> menu </span>
-            <div class="bat-logo bat-flex flex-gap-1 bat-align-center bold-600">
+            <a
+              href="/index.html"
+              class="bat-logo bat-flex flex-gap-1 bat-align-center bold-600"
+            >
               <i class="fad fa-bat"></i>BatStore
-            </div>
+            </a>
 
             <div class="search-bar bat-flex bat-align-center bat-br-5px">
               <span class="material-icons"> search </span>
@@ -42,153 +45,170 @@
                 <span class="hide-on-phone"> Login </span>
               </button></a
             >
-            <div class="bat-flex bat-align-center bat-fs-1r pointer">
+
+            <a
+              href="/docs/cart.html"
+              class="bat-flex bat-align-center bat-fs-1r pointer"
+            >
               <span class="material-icons"> shopping_cart </span>
-              <span class="hide-on-phone"> Cart </span>
-            </div>
-            <span class="material-icons"> favorite </span>
+              <span class="hide-on-phone"> Cart </span></a
+            >
+
+            <a href="/docs/wishlist.html" class="material-icons"> favorite </a>
           </div>
         </nav>
       </div>
-      <header class="landing-header">
-        <div class="category-list bat-flex bat-align-center flex-gap-1">
-          <div>
-            <img
-              src="./images/Batman-Comics-10-Essentials-You-Need-To-Read.jpg"
-              alt=""
-            />
-            <a href="/docs/category.html">
-              <div class="bat-overlay-bg">
-                <div class="bat-overlay-text pointer">Batman</div>
-              </div>
-            </a>
-          </div>
 
-          <div>
-            <img
-              src="./images/jbareham_201217_0988_2020_wwoman_comics.jpg"
-              alt=""
-            />
-            <a href="/docs/category.html">
-              <div class="bat-overlay-bg">
-                <div class="bat-overlay-text pointer">Wonder Woman</div>
-              </div>
-            </a>
-          </div>
-          <div>
-            <img
-              src="https://www.denofgeek.com/wp-content/uploads/2017/11/thor-comics-reading-guide-ragnarok.jpg?fit=1024%2C544"
-              alt=""
-            />
-            <a href="/docs/category.html">
-              <div class="bat-overlay-bg">
-                <div class="bat-overlay-text pointer">Thor</div>
-              </div>
-            </a>
-          </div>
-          <div>
-            <img
-              src="./images/jbareham_201027_0988_grids_superman_vrs02.jpg"
-              alt=""
-            />
-            <a href="/docs/category.html">
-              <div class="bat-overlay-bg">
-                <div class="bat-overlay-text pointer">Superman</div>
-              </div></a
-            >
-          </div>
-          <div>
-            <img src="./images/jbareham_191003_0958_joker_comics.jpg" alt="" />
-            <a href="/docs/category.html">
-              <div class="bat-overlay-bg">
-                <div class="bat-overlay-text pointer">Joker</div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </header>
-      <div class="slider-box">
-        <div id="slider">
-          <div class="slider-item">
-            <img
-              src="https://www.dccomics.com/sites/default/files/BM_Cv119_var_11921_DIGITAL_61d75399d57db8.08186915.jpg"
-              alt=""
-            />
-            <div class="slider-badge bat-flex bat-align-center">
-              New Arrival <span class="material-icons"> star </span>
-            </div>
-            <div class="slider-title">
-              BATMAN #119 <br />
-              <span class="small-text"> Tuesday, Jan 4th, 2022 </span>
-            </div>
-          </div>
-          <div class="slider-item">
-            <img
-              src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/im2020020_cov.jpg"
-              alt=""
-            />
-            <div class="slider-badge bat-flex bat-align-center">
-              This May <span class="material-icons"> star </span>
-            </div>
-            <div class="slider-title">
-              IRON MAN #20 <br />
-              <span class="small-text"> Friday, May 11th, 2022 </span>
-            </div>
-          </div>
-          <div class="slider-item">
-            <img
-              src="https://i.annihil.us/u/prod/marvel/i/mg/6/50/605cee571554a/clean.jpg"
-              alt=""
-            />
-            <div class="slider-badge bat-flex bat-align-center">
-              Best Seller <span class="material-icons"> star </span>
-            </div>
-            <div class="slider-title">
-              Avengers (2018) #44 <br />
-              <span class="small-text"> Friday, Apr 7th, 2021 </span>
-            </div>
-          </div>
-          <div class="slider-item">
-            <img
-              src="https://www.dccomics.com/sites/default/files/Gallery_20220208_JLANN2022_Cv1_00111_DIGITAL_61f1fc9323b213.32165624.jpg"
-              alt=""
-            />
-            <div class="slider-badge bat-flex bat-align-center">
-              Next Week <span class="material-icons"> skip_next </span>
-            </div>
-            <div class="slider-title">
-              JUSTICE LEAGUE 2022 ANNUAL #1 <br />
-              <span class="small-text"> Tuesday, Feb 8th, 2022</span>
-            </div>
-          </div>
-        </div>
-        <div class="indicators">
-          <span id="btn1" class="slider-active"></span>
-          <span id="btn2"></span>
-          <span id="btn3"></span>
-          <span id="btn4"></span>
-        </div>
+      <div class="hero-img-cat">
+        <img
+          src="/images/Batman-Comics-10-Essentials-You-Need-To-Read.jpg"
+          alt=""
+        />
+        <div class="absolute-head">Zuber's Wishlist</div>
       </div>
-      <main>
-        <div class="bat-flex bat-mar-tb-1 bat-justify-between bat-align-center">
-          <div class="fs-1-5r text-color-primary bold-600">Comics By DC</div>
-          <a
-            href="/docs/category.html"
-            class="pointer show-more-text bat-flex bat-align-center"
-          >
-            Explore DC <span class="material-icons"> trending_flat </span>
-          </a>
-        </div>
-        <div
-          class="bat-flex flex-gap-1 home-cards-media-query bat-align-center bat-justify-center margin-tb-2"
-        >
-          <a href="/docs/product.html" class="bat-card card-with-badge">
+      <div class="wishlist">
+        <!-- <div class="wishlist-gif">
+                <div>Trending Comics</div>
+                <img src="https://i0.wp.com/thecomicbookstore.in/wp-content/uploads/2018/09/art-print-gif.gif?fit=761%2C1200&ssl=1"
+                    alt="">
+            </div> -->
+        <div class="wish-list-container">
+          <div class="bat-card card-with-badge">
+            <img
+              src="https://i.annihil.us/u/prod/marvel/i/mg/3/40/5f282a661283a/portrait_uncanny.jpg"
+              alt="batman"
+            />
+            <div
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
+            >
+              <div class="fs-1r bold-600 text-color-primary-dark">
+                Spider-Man / Venom (2020) #1
+              </div>
+              <div class="bat-badge bold-600">Best Seller</div>
+              <div class="bat-badge-close">
+                <i class="fas fa-times-circle"></i>
+              </div>
+              <div class="fs-1r bold-500">Marvel Comics</div>
+              <div class="bat-flex bat-align-center bat-justify-between">
+                <div>
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
+                  <span class="bat-line-through bat-fs-12px bold-500"
+                    >₹ 5,999</span
+                  >
+                  <span class="bat-discount-tag bat-m-l-8px margin-t-1"
+                    >40% off</span
+                  >
+                </div>
+              </div>
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
+                </div>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
+              </div>
+            </div>
+          </div>
+          <div class="bat-card card-with-badge">
+            <img
+              src="https://i.annihil.us/u/prod/marvel/i/mg/7/20/5bbe6795328d7/portrait_uncanny.jpg"
+              alt="batman"
+            />
+            <div
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
+            >
+              <div class="fs-1r bold-600 text-color-primary-dark">
+                Shuri (2018) #1
+              </div>
+              <div class="bat-badge bold-600">HOT</div>
+              <div class="bat-badge-close">
+                <i class="fas fa-times-circle"></i>
+              </div>
+              <div class="fs-1r bold-500">Marvel Comics</div>
+              <div class="bat-flex bat-align-center bat-justify-between">
+                <div>
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
+                  <span class="bat-line-through bat-fs-12px bold-500"
+                    >₹ 5,999</span
+                  >
+                  <span class="bat-discount-tag bat-m-l-8px margin-t-1"
+                    >40% off</span
+                  >
+                </div>
+              </div>
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
+                </div>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
+              </div>
+            </div>
+          </div>
+          <div class="bat-card card-with-badge">
+            <img
+              src="https://i.annihil.us/u/prod/marvel/i/mg/7/20/5bbe6795328d7/portrait_uncanny.jpg"
+              alt="batman"
+            />
+            <div
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
+            >
+              <div class="fs-1r bold-600 text-color-primary-dark">
+                Shuri (2018) #1
+              </div>
+              <div class="bat-badge bold-600">HOT</div>
+              <div class="bat-badge-close">
+                <i class="fas fa-times-circle"></i>
+              </div>
+              <div class="fs-1r bold-500">Marvel Comics</div>
+              <div class="bat-flex bat-align-center bat-justify-between">
+                <div>
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
+                  <span class="bat-line-through bat-fs-12px bold-500"
+                    >₹ 5,999</span
+                  >
+                  <span class="bat-discount-tag bat-m-l-8px margin-t-1"
+                    >40% off</span
+                  >
+                </div>
+              </div>
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
+                </div>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
+              </div>
+            </div>
+          </div>
+          <div class="bat-card card-with-badge">
             <img
               src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2018/06/gthmunderground_4_5b293d36d89208.55550662.jpg?itok=mXgFiewA"
               alt="batman"
             />
             <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
             >
               <div class="fs-1r bold-600 text-color-primary-dark">
                 GOTHAM UNDERGROUND #4
@@ -200,9 +220,7 @@
               <div class="fs-1r bold-500">DC COMICS</div>
               <div class="bat-flex bat-align-center bat-justify-between">
                 <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
                   <span class="bat-line-through bat-fs-12px bold-500"
                     >₹ 5,999</span
                   >
@@ -210,20 +228,33 @@
                     >40% off</span
                   >
                 </div>
-                <button class="wishlist-btn material-icons">favorite</button>
+              </div>
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
+                </div>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
               </div>
             </div>
-          </a>
-          <a href="/docs/product.html" class="bat-card card-with-badge">
+          </div>
+          <div class="bat-card card-with-badge">
             <img
               src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2021/11/BM-ODK_Cvr_Cropped_618cac794297a1.02220846.png?itok=tlqbEORK"
               alt="batman"
             />
             <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
             >
               <div class="fs-1r bold-600 text-color-primary-dark">
-                ONE DARK KNIGHT #1
+                BATMAN: ONE DARK KNIGHT #1
               </div>
               <div class="bat-badge bold-600">New Arrival</div>
               <div class="bat-badge-close">
@@ -232,9 +263,7 @@
               <div class="fs-1r bold-500">DC COMICS</div>
               <div class="bat-flex bat-align-center bat-justify-between">
                 <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
                   <span class="bat-line-through bat-fs-12px bold-500"
                     >₹ 5,999</span
                   >
@@ -242,17 +271,73 @@
                     >40% off</span
                   >
                 </div>
-                <button class="wishlist-btn material-icons">favorite</button>
+              </div>
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
+                </div>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
               </div>
             </div>
-          </a>
-          <a href="/docs/product.html" class="bat-card card-with-badge">
+          </div>
+          <div class="bat-card card-with-badge">
+            <img
+              src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2021/11/BM-ODK_Cvr_Cropped_618cac794297a1.02220846.png?itok=tlqbEORK"
+              alt="batman"
+            />
+            <div
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
+            >
+              <div class="fs-1r bold-600 text-color-primary-dark">
+                BATMAN: ONE DARK KNIGHT #1
+              </div>
+              <div class="bat-badge bold-600">New Arrival</div>
+              <div class="bat-badge-close">
+                <i class="fas fa-times-circle"></i>
+              </div>
+              <div class="fs-1r bold-500">DC COMICS</div>
+              <div class="bat-flex bat-align-center bat-justify-between">
+                <div>
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
+                  <span class="bat-line-through bat-fs-12px bold-500"
+                    >₹ 5,999</span
+                  >
+                  <span class="bat-discount-tag bat-m-l-8px margin-t-1"
+                    >40% off</span
+                  >
+                </div>
+              </div>
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
+                </div>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
+              </div>
+            </div>
+          </div>
+          <div class="bat-card card-with-badge card-with-badge">
             <img
               src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2018/06/batwoman_v2_9_5b1729746f9e95.67583624.jpg?itok=c7TsMNRM"
               alt="batman"
             />
             <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
             >
               <div class="fs-1r bold-600 text-color-primary-dark">
                 BATWOMAN #9
@@ -264,9 +349,7 @@
               <div class="fs-1r bold-500">DC COMICS</div>
               <div class="bat-flex bat-align-center bat-justify-between">
                 <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
                   <span class="bat-line-through bat-fs-12px bold-500"
                     >₹ 5,999</span
                   >
@@ -274,17 +357,30 @@
                     >40% off</span
                   >
                 </div>
-                <button class="wishlist-btn material-icons">favorite</button>
+              </div>
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
+                </div>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
               </div>
             </div>
-          </a>
-          <a href="/docs/product.html" class="bat-card card-with-badge">
+          </div>
+          <div class="bat-card card-with-badge card-with-badge">
             <img
               src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2022/01/JL_INC_Cv4_00411_DIGITAL_61eb15baab4225.28261645.jpg?itok=gexq8bZR"
               alt="batman"
             />
             <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
             >
               <div class="fs-1r bold-600 text-color-primary-dark">
                 JUSTICE LEAGUE INC. #4
@@ -296,9 +392,7 @@
               <div class="fs-1r bold-500">DC COMICS</div>
               <div class="bat-flex bat-align-center bat-justify-between">
                 <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
                   <span class="bat-line-through bat-fs-12px bold-500"
                     >₹ 5,999</span
                   >
@@ -306,69 +400,34 @@
                     >40% off</span
                   >
                 </div>
-                <button class="wishlist-btn material-icons">favorite</button>
               </div>
-            </div>
-          </a>
-          <a
-            href="/docs/product.html"
-            class="bat-card card-with-badge hide-media-tab"
-          >
-            <img
-              src="https://www.dccomics.com/sites/default/files/styles/comics320x485/public/comic-covers/2022/01/JL_INC_Cv4_00411_DIGITAL_61eb15baab4225.28261645.jpg?itok=gexq8bZR"
-              alt="batman"
-            />
-            <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
-            >
-              <div class="fs-1r bold-600 text-color-primary-dark">
-                JUSTICE LEAGUE INC. #4
-              </div>
-              <div class="bat-badge bold-600">HOT</div>
-              <div class="bat-badge-close">
-                <i class="fas fa-times-circle"></i>
-              </div>
-              <div class="fs-1r bold-500">DC COMICS</div>
-              <div class="bat-flex bat-align-center bat-justify-between">
-                <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
-                  <span class="bat-line-through bat-fs-12px bold-500"
-                    >₹ 5,999</span
-                  >
-                  <span class="bat-discount-tag bat-m-l-8px margin-t-1"
-                    >40% off</span
-                  >
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
                 </div>
-                <button class="wishlist-btn material-icons">favorite</button>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
               </div>
             </div>
-          </a>
-        </div>
+          </div>
 
-        <div class="line">Have A Nice Day!</div>
-        <div class="bat-flex bat-mar-tb-1 bat-justify-between bat-align-center">
-          <div class="fs-1-5r text-color-primary bold-600">
-            Comics By Marvel
-          </div>
-          <div class="pointer show-more-text bat-flex bat-align-center">
-            Explore Marvel <span class="material-icons"> trending_flat </span>
-          </div>
-        </div>
-        <div
-          class="bat-flex home-cards-media-query flex-gap-1 bat-align-center bat-justify-center margin-tb-2"
-        >
-          <a href="/docs/product.html" class="bat-card card-with-badge">
+          <div class="bat-card card-with-badge card-with-badge">
             <img
               src="https://i.annihil.us/u/prod/marvel/i/mg/9/d0/61fd98cd3c742/portrait_uncanny.jpg"
               alt="batman"
             />
             <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
             >
               <div class="fs-1r bold-600 text-color-primary-dark">
-                Edge of Spider-Verse #2
+                Edge of Spider-Verse (2022) #2
               </div>
               <div class="bat-badge bold-600">Tredning</div>
               <div class="bat-badge-close">
@@ -377,9 +436,7 @@
               <div class="fs-1r bold-500">Marvel Comics</div>
               <div class="bat-flex bat-align-center bat-justify-between">
                 <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
                   <span class="bat-line-through bat-fs-12px bold-500"
                     >₹ 5,999</span
                   >
@@ -387,20 +444,33 @@
                     >40% off</span
                   >
                 </div>
-                <button class="wishlist-btn material-icons">favorite</button>
+              </div>
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
+                </div>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
               </div>
             </div>
-          </a>
-          <a href="/docs/product.html" class="bat-card card-with-badge">
+          </div>
+          <div class="bat-card card-with-badge card-with-badge">
             <img
               src="https://i.annihil.us/u/prod/marvel/i/mg/9/f0/61fd98c7b5d43/portrait_uncanny.jpg"
               alt="batman"
             />
             <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
+              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px"
             >
               <div class="fs-1r bold-600 text-color-primary-dark">
-                Hawkeye (2021) #4
+                Hawkeye: Kate Bishop (2021) #4
               </div>
               <div class="bat-badge bold-600">Tredning</div>
               <div class="bat-badge-close">
@@ -409,9 +479,7 @@
               <div class="fs-1r bold-500">Marvel Comics</div>
               <div class="bat-flex bat-align-center bat-justify-between">
                 <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
+                  <span class="bat-fs-14px bold-500 bat-m-r-8px">₹ 2,999</span>
                   <span class="bat-line-through bat-fs-12px bold-500"
                     >₹ 5,999</span
                   >
@@ -419,111 +487,26 @@
                     >40% off</span
                   >
                 </div>
-                <button class="wishlist-btn material-icons">favorite</button>
               </div>
-            </div>
-          </a>
-          <a href="/docs/product.html" class="bat-card card-with-badge">
-            <img
-              src="https://i.annihil.us/u/prod/marvel/i/mg/3/40/5f282a661283a/portrait_uncanny.jpg"
-              alt="batman"
-            />
-            <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
-            >
-              <div class="fs-1r bold-600 text-color-primary-dark">
-                Spider-Man/Venom #1
-              </div>
-              <div class="bat-badge bold-600">Best Seller</div>
-              <div class="bat-badge-close">
-                <i class="fas fa-times-circle"></i>
-              </div>
-              <div class="fs-1r bold-500">Marvel Comics</div>
-              <div class="bat-flex bat-align-center bat-justify-between">
-                <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
-                  <span class="bat-line-through bat-fs-12px bold-500"
-                    >₹ 5,999</span
-                  >
-                  <span class="bat-discount-tag bat-m-l-8px margin-t-1"
-                    >40% off</span
-                  >
+              <div class="bat-flex bat-gap-1 bat-align-center m-tb-8">
+                <div class="rating">
+                  4 <span class="material-icons"> star </span>
                 </div>
-                <button class="wishlist-btn material-icons">favorite</button>
+                <div class="bat-fs-12px">Free Delivery</div>
+              </div>
+              <div class="bat-flex bat-justify-between bat-align-center m-tb-8">
+                <button
+                  class="bat-btn bat-justify-center bat-br-3px bat-btn-with-icon"
+                >
+                  <span>Move to Cart</span>
+                </button>
+                <span class="material-icons"> delete_outline </span>
               </div>
             </div>
-          </a>
-          <a href="/docs/product.html" class="bat-card card-with-badge">
-            <img
-              src="https://i.annihil.us/u/prod/marvel/i/mg/7/20/5bbe6795328d7/portrait_uncanny.jpg"
-              alt="batman"
-            />
-            <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
-            >
-              <div class="fs-1r bold-600 text-color-primary-dark">
-                Shuri (2018) #1
-              </div>
-              <div class="bat-badge bold-600">HOT</div>
-              <div class="bat-badge-close">
-                <i class="fas fa-times-circle"></i>
-              </div>
-              <div class="fs-1r bold-500">Marvel Comics</div>
-              <div class="bat-flex bat-align-center bat-justify-between">
-                <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
-                  <span class="bat-line-through bat-fs-12px bold-500"
-                    >₹ 5,999</span
-                  >
-                  <span class="bat-discount-tag bat-m-l-8px margin-t-1"
-                    >40% off</span
-                  >
-                </div>
-                <button class="wishlist-btn material-icons">favorite</button>
-              </div>
-            </div>
-          </a>
-          <a
-            href="/docs/product.html"
-            class="bat-card card-with-badge hide-media-tab"
-          >
-            <img
-              src="https://i.annihil.us/u/prod/marvel/i/mg/7/20/5bbe6795328d7/portrait_uncanny.jpg"
-              alt="batman"
-            />
-            <div
-              class="bat-flex bat-flx-dir-col bat-justify-between bat-m-r-8px margin-t-1"
-            >
-              <div class="fs-1r bold-600 text-color-primary-dark">
-                Shuri (2018) #1
-              </div>
-              <div class="bat-badge bold-600">HOT</div>
-              <div class="bat-badge-close">
-                <i class="fas fa-times-circle"></i>
-              </div>
-              <div class="fs-1r bold-500">Marvel Comics</div>
-              <div class="bat-flex bat-align-center bat-justify-between">
-                <div>
-                  <span class="bat-fs-14px bold-500 bat-m-r-8px margin-t-1"
-                    >₹ 2,999</span
-                  >
-                  <span class="bat-line-through bat-fs-12px bold-500"
-                    >₹ 5,999</span
-                  >
-                  <span class="bat-discount-tag bat-m-l-8px margin-t-1"
-                    >40% off</span
-                  >
-                </div>
-                <button class="wishlist-btn material-icons">favorite</button>
-              </div>
-            </div>
-          </a>
+          </div>
         </div>
-      </main>
+      </div>
+
       <div class="main featured-area-flex bat-flex bat-align-center flex-gap-1">
         <div class="relative featured-area">
           <img
@@ -572,40 +555,17 @@
           </div>
         </div>
       </div>
-
-      <div class="subscribe-mail-section">
-        <img
-          src="https://static3.srcdn.com/wordpress/wp-content/uploads/2021/10/dc-comics-marvel-multiverse-featured.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
-          alt=""
-        />
-        <div
-          class="subscribe-mail bat-pad-1 bat-flex bat-flx-dir-col bat-justify-center bat-align-center"
-        >
-          <h1>Don’t Miss Out</h1>
-          <p>
-            Sign up to be the first to hear about exclusive releases, special
-            offers and upcoming collections
-          </p>
-          <div class="bat-flex input-div-subscribe flex-gap-1">
-            <input type="text" placeholder="Email Address" />
-            <button class="bat-btn bat-br-3px bat-btn-primary">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </div>
       <footer class="bat-footer">
         <div class="bat-footer-component">
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
-              <li class="bold-600 bat-fs-14px">Quick Links</li>
+              <li class="bold-600 bat-fs-14px">Navigation</li>
               <li>Home</li>
               <li>Marvel</li>
               <li>DC</li>
-              <li>My Profile</li>
-              <li>My Orders</li>
-              <li>My Cart</li>
-              <li>My Wishlist</li>
+              <li>Profile</li>
+              <li>Cart</li>
+              <li>Wishlist</li>
             </ul>
           </div>
           <div class="bat-footer-social bat-fs-14px">
@@ -668,12 +628,11 @@
           <div class="bat-footer-social bat-fs-14px">
             <ul class="bat-footer-nav">
               <li class="bold-600 bat-fs-14px">Help</li>
-              <li>Track Order</li>
               <li>Return</li>
               <li>Payment</li>
               <li>Term of use</li>
-              <li>Privacy Policy</li>
-              <!-- <li>Payment options Available</li> -->
+              <li>Privacy</li>
+              <li>Payment options Available</li>
             </ul>
 
             <!-- <div>

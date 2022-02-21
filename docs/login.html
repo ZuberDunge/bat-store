@@ -18,9 +18,12 @@
         <nav class="bat-navbar">
           <div class="bat-flex media-nav bat-align-center flex-gap-1">
             <span class="material-icons menu-icon"> menu </span>
-            <div class="bat-logo bat-flex flex-gap-1 bat-align-center bold-600">
+            <a
+              href="/index.html"
+              class="bat-logo bat-flex flex-gap-1 bat-align-center bold-600"
+            >
               <i class="fad fa-bat"></i>BatStore
-            </div>
+            </a>
 
             <div class="search-bar bat-flex bat-align-center bat-br-5px">
               <span class="material-icons"> search </span>
@@ -32,17 +35,25 @@
             </div>
           </div>
           <div class="nav-menu bat-flex bat-align-center flex-gap-1">
-            <button
-              class="bat-flex bat-align-center flex-gap-8px bat-btn bat-br-3px bat-btn-light"
+            <a href="/docs/login.html"
+              ><button
+                class="bat-flex bat-align-center flex-gap-8px bat-btn bat-br-3px bat-btn-light"
+              >
+                <span class="material-icons"> person </span>
+
+                <span class="hide-on-phone"> Login </span>
+              </button></a
             >
-              <span class="material-icons"> person </span>
-              <span class="hide-on-phone"> Login </span>
-            </button>
-            <div class="bat-flex bat-align-center bat-fs-1r pointer">
+
+            <a
+              href="/docs/cart.html"
+              class="bat-flex bat-align-center bat-fs-1r pointer"
+            >
               <span class="material-icons"> shopping_cart </span>
-              <span class="hide-on-phone"> Cart </span>
-            </div>
-            <span class="material-icons"> favorite </span>
+              <span class="hide-on-phone"> Cart </span></a
+            >
+
+            <a href="/docs/wishlist.html" class="material-icons"> favorite </a>
           </div>
         </nav>
       </div>
@@ -95,7 +106,9 @@
             </button>
             <div class="bat-fs-1r bat-txt-center margin-t-1">
               New to BatStore?
-              <span class="text-color-primary"> Sign Up! </span>
+              <a href="/docs/signup.html" class="text-color-primary">
+                Sign Up!
+              </a>
             </div>
           </form>
         </div>
